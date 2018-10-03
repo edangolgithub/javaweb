@@ -8,6 +8,7 @@
 </head>
 <body>
 <%  
+
 String name=request.getParameter("uname");  
 String pass=request.getParameter("pass");
  out.print("User Name: "+name);  
