@@ -8,13 +8,12 @@
 </head>
 <body>
 <%  
-
-
-%>
-<%! int a=80; 
- String a1="hello";
+String name=request.getParameter("uname");  
+String pass=request.getParameter("pass");
+ out.print("User Name: "+name);  
+ out.print("password: "+pass);  
  
- %>
-<% out.print(a1); %>
+ 
+%>  
 </body>
 </html>

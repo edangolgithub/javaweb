@@ -7,14 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%  
-
-
-%>
-<%! int a=80; 
- String a1="hello";
- 
- %>
-<% out.print(a1); %>
+foregt
 </body>
 </html>
